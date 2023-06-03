@@ -1,0 +1,18 @@
+create database flight_booking;
+
+use flight_booking;
+
+create user 'admin'@'localhost' identified by 'root';
+
+grant all on *.* to 'admin'@'localhost' with grant option;
+
+create table user_info(username varchar(50) primary key,password varchar(30),Booking_status varchar(20),flight_name varchar(20),flight_id int);
+
+create table admin_info(admin_id int,adminname varchar(20) primary key,password varchar(20));
+
+create flight_info(flight_id int primary key,flight_name varchar(20),src varchar(20),dest varchar(20).arrival_time varchar(20),date varchar(25),availability int,reaching_time varchar(20));
+
+***statically insert 5 admins to admin tabel***
+
+insert into admin_info values(1,'Admin1','G01'),(2,'Admin2','G02'),(3,'Admin3','G03'),(4,'Admin4','G04'),(5,'Admi
+n5','G05');
