@@ -16,4 +16,4 @@ Create table admin_info(id,name,password)
 Create table user_info(id,name,password,booking status,flight_name,flight_id)
 
 
-Create table flight_info(id,flight_name,src,dest,availability,arrival time,reaching time)
+Create table flight_info(id,flight_name,src,dest,availability,arrival time,reaching time,date)
