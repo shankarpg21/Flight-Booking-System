@@ -7,6 +7,13 @@ Perform given Mysql queries in MySql  before running the project on your console
 
 
 Create  database flight_booking
+
+
+
 Create table admin_info(id,name,password)
+
+
 Create table user_info(id,name,password,booking status,flight_name,flight_id)
+
+
 Create table flight_info(id,flight_name,src,dest,time,availability,arrival time,reaching time)
